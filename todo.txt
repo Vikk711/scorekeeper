@@ -1,0 +1,8 @@
+Todo:
+- Controllo su valore negativo falli OK
+- Colorazione chevron squadre ok
+- Box falli ok
+- scritte Punti 
+- Scritte falli
+- font  
+- rendere locali i font

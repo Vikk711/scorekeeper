@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Match D'improvvisazione Teatrale</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/function.js"></script>
+	<script src='js/spectrum.js'></script>
+	<link rel='stylesheet' href='css/spectrum.css' />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Knewave|Sarala:700');
+	</style>
+</head>
+<body>
+<div id="container">
+	<div id="colsx" class="column">
+		<div class="columnhead">
+		<span style = "color: aliceblue">Squadra:</span>
+		<input type='text' class="colorpicker" target="scoresx">
+		<span style="color: aliceblue">Frecce:</span>
+		<input type='text' class="colorpicker" target="chevronsx">
+		</div>
+
+
+		<div class="scorecontainer">
+			<div id="scoresx" class="scoremask">
+
+
+			<div class="score scoreboxsx">
+				<a href="#" class="scoreremove">
+					<div class="chevronsx chevronleft"></div>
+				</a>
+				<span id ="scorevaluesx" class="scorevalue">0</span>
+				<a href="#" class="scoreadd">
+					<div class="chevronsx chevronright"></div>
+				</a>
+			</div>
+
+
+			</div>
+		</div>
+
+
+		<div class="foulcontainer">
+			<div id="foulsx" class="foulmask">
+				<div class="score foulboxsx">
+					<a href="#" class="foulremove">
+						<div class="chevronsx chevronleft"></div>
+					</a>
+					<span id="foulvaluesx" class="foulvalue">0</span>
+					<a href="#" class="fouladd" target="scorevaluedx">
+						<div class="chevronsx chevronright"></div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+
+	<div id="colcentrale" class="column">
+		
+		<div class="columnhead">
+			<span style="color: aliceblue">Squadra:</span>
+			<input type='text' class="colorpicker" target="scoredx">
+			<span style="color: aliceblue">Frecce:</span>
+			<input type='text' class="colorpicker" target="chevrondx">
+		</div>
+
+		<div id="teamnames">
+			<span id="teamleft" class="team">TORINO</span>
+			<div><img src="img/vs.png"></div>
+			<span id="teamright"class="team">FIRENZE</span>
+		</div>
+		<div id="matchlogo">
+			<img src="img/mit.png">
+		</div>
+		<div id="title">
+			<span id="matchtitle">TEATRO E LETTERATURA</span>
+		</div>
+		<div id="companylogo">
+			<img src="img/logo.png">
+		</div>
+	</div>
+
+
+	<div id="coldx" class="column">
+		<div class="columnhead">
+			<span style="color: aliceblue">Squadra:</span>
+			<input type='text' class="colorpicker" target="scoredx">
+			<span style="color: aliceblue">Frecce:</span>
+			<input type='text' class="colorpicker" target="chevrondx">
+		</div>
+
+		<div class="scorecontainer">
+			<div id="scoredx" class="scoremask">
+		
+		
+				<div class="score scoreboxdx">
+					<a href="#" class="scoreremove">
+						<div class="chevrondx chevronleft"></div>
+					</a>
+					<span id="scorevaluedx" class="scorevalue">0</span>
+					<a href="#" class="scoreadd">
+						<div class="chevrondx chevronright"></div>
+					</a>
+				</div>
+		
+		
+			</div>
+		</div>
+		<div class="foulcontainer">
+			<div id="fouldx" class="foulmask">
+				<div class="score foulboxdx">
+					<a href="#" class="foulremove">
+						<div class="chevrondx chevronleft"></div>
+					</a>
+					<span id="foulvaluedx" class="foulvalue">0</span>
+					<a href="#" class="fouladd" target="scorevaluesx">
+						<div class="chevrondx chevronright"></div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
